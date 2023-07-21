@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+h1{
+  text-align: center;
+  font-size: 90px;
+  padding-bottom: 50px;
+}
+.about{
+    background: url(https://zhurnal.mk/wp-content/uploads/2020/07/blog-senior-category-sml-01-1200x672.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    background-color: #a4dbdf;
+    padding: 140px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.3);
+}
+.inner-section2{
+    width: 47%;
+    float: left;
+    background-color: #a4dbdf;
+    padding: 140px;
+    box-shadow: 10px 10px 8px 10px rgba(0,0,0,0.3);
+}
+.about2{
+    background: url(https://www.albawabhnews.com/upload/photo/news/381/9/600x338o/573.jpg?q=1) no-repeat right;
+    background-size: 55%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #1d10ca;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+button{
+    margin: 0 auto;
+    width: 150px;
+    height: 36px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    margin: 10px;
+    border-style:solid;
+    border-radius: 12px;
+}
+  
+.submit{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    background: -webkit-linear-gradient(left, #7579ff, #545454);
+}
+  
+.submit:hover{
+    background: -webkit-linear-gradient(left, #545454, #7579ff);
+}
+
+  
+  
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 60px;
+    }
+    body {
+      background-color: lightblue;
+    }
+}

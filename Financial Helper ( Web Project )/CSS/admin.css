@@ -1,0 +1,62 @@
+body{
+    background-color: #1e272e;
+    height: 50px;
+}
+ul,img{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: Tahoma,Arial;
+}
+.N{
+    width: 1470px;
+    margin: 10px auto;
+    background-color: #1e272e;
+    height: 5px;
+    padding: 20px 20px 1px 10px;
+    border: 1px solid #1e272e;
+}
+.N > li{
+    color: white;
+    padding: 7px 10px 15px 10px;
+    float: left;
+    border: 1px solid #95afc0;
+    border-radius: 10px;
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+    height: 10px;
+    transition: 0.25s;
+}
+.N > li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.N .Menu{
+    position: relative;
+}
+.N :hover{
+    color: red;
+    background-color: black;
+    height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+button{
+    background: #fff;
+    border: 1px solid white;
+    outline: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.sss{
+    background: darkslategrey;
+    border: 1px solid white;
+    outline: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+}

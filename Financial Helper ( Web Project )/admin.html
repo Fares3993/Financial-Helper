@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet'  href='CSS/admin.css' />
+    <link rel="stylesheet" type="text/css" href="CSS/transfer.css">
+    <link rel='shortcut icon' href='https://a.top4top.io/p_1719atyg01.png' />
+</head>
+<body>
+<ul class="N">
+    <li><a href="login.html" class="H">Log Out</a></li>
+</ul>
+<img src="https://a.top4top.io/p_1719atyg01.png" width="300" height="350" class="pic"/>
+<link rel='stylesheet'  href='transfer.css' />
+<label><h1>Edit the values of Coins</h1><label/><br><hr><br>
+<label>Dollar</label><br>
+<input type="text" name="set_dollar" id="set_dollar" required /><br>
+<label>Euro</label><br>
+<input type="text" name="set_euro" id="set_euro" required/><br>
+<label>YN</label><br>
+<input type="text"  name="set_yn" id="set_yn" required/><br>
+<label>SAR</label><br>
+<input type="text" name="set_sar" id="set_sar" required/><br>
+<label>AED</label><br>
+<input type="text" name="set_AED" id="set_AED" required/><br>
+<input type="button" value="Save" onclick="save()" class="sss"/><br>
+<label><h1>Edit Style</h1><br><hr><br></label>
+<button>Change Theme</button>
+</body>
+<script>
+    var color =["#222f3e","#636e72"];
+    var i=0;
+    document.querySelector("button").addEventListener("click",
+        function(){
+            i = i < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color[i]
+            document.querySelector(".N").style.background = color[i]
+            document.querySelector(".N").style.border = color[i]
+        })
+    function save()
+    {
+        alert("The data saved correctly")
+    }
+</script>
+</html>

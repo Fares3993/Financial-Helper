@@ -1,0 +1,178 @@
+body
+{
+    margin: 100px;
+    padding: 100px;
+    background-color: #1e272e;
+}
+.pic
+     {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%; 
+     }
+     
+label{
+    color: white ;
+    font-family: Arial;
+    font-weight: bold;
+}
+input
+{
+    margin: 3px;
+    padding: 5px;
+    background: #fff;
+    /* box-shadow: 5px 10px 18px #888888;*/
+    box-shadow: 3px 3px 3px white;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+}
+input {
+    width: 60%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=text] {
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+input[type=text] {
+    background-color: black;
+    color: white;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+button {
+    background-color: #1e272e;
+    border: 2px solid white;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    border: 1px solid black;
+}
+table {
+    width: 100%;
+}
+
+th {
+    color: white;
+    height: 50px;
+}
+th {
+    color: white;
+    text-align: left;
+}
+td {
+    color: white;
+    height: 50px;
+    vertical-align: bottom;
+}
+th, td {
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+h1{
+    color: white;
+}
+#one
+{
+    background-color: #4CAF50;
+    border: 10px double #000;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#two
+{
+    background-color: #4CAF50;
+    border: 10px double #000;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.N{
+    width: 1470px;
+    margin: 100px auto;
+    background-color: #1e272e;
+    height: 100px;
+    padding: 20px 20px 1px 20px;
+    border: 1px solid #1e272e;
+    list-style: none;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+.N > li{
+    color: white;
+    padding: 7px 10px 15px 10px;
+    float: left;
+    border: 1px solid #95afc0;
+    border-radius: 10px;
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+    height: 10px;
+    transition: 0.25s;
+
+}
+.N > li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.N .Menu{
+    position: relative;
+}
+.N :hover{
+    color: red;
+    background-color: black;
+    height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+hr{
+    margin: -30px 2px 4px 2px;
+}
+.comment{
+    float: right;
+    color: white;
+    background-color: #2d3436;
+    font-size: 20px;
+    text-align: center;
+    top: 1000px;
+    margin: 50px 40px 50px 30px;
+}

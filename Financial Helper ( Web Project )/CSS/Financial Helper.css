@@ -1,0 +1,122 @@
+body{
+  background-color: #1e272e;
+  height: 50px;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+list-style: none;
+font-family: Tahoma,Arial;
+}
+.N{
+  width: 1470px;
+  margin: 0px auto;
+  background-color: #1e272e;
+  height: 100px;
+  padding: 20px 20px 1px 20px;
+  border: 1px solid #1e272e;
+}
+.N > li{
+  color: white;
+  padding: 7px 10px 15px 10px;
+  float: left;
+  border: 1px solid #95afc0;
+  border-radius: 10px;
+  margin: 0px 10px 10px 10px;
+  cursor: pointer;
+  height: 10px;
+  transition: 0.25s;
+
+}
+.N > li a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.N .Menu{
+  position: relative;
+}
+.N :hover{
+  color: red;
+  background-color: black;
+  height: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.label{
+  font-size: 60px;
+  text-align: center;
+  margin: 0.5px 50px -10px 50px;
+  font-family: cursive, sans-serif;
+  color: #485460;
+  font-style: oblique;
+  text-shadow: 3px 3px black;
+  padding-bottom: 20px;
+}
+.comment{
+  float: right;
+  color: white;
+  background-color: #2d3436;
+  font-size: 20px;
+  text-align: center;
+  top: 1000px;
+  margin: 50px 40px 50px 30px;
+}
+.welcome {
+   font-size:30px;
+   color: #a4b0be;
+    padding: 30px 15px 15px 15px;
+}
+ div span {
+   color:#CAD3C8;
+   padding: 15px 15px 15px 15px;
+   font-size:80px;
+   margin:10px;
+   font-family: fantasy;
+   }
+   p{
+   font-size:25px;
+   padding: 15px 15px 15px 15px;
+   color:#596275;
+   background-color:none;
+   font-style:italic;
+   }
+   .second{
+   color: red;
+   }
+hr{
+  margin: -30px 2px 4px 2px;
+}
+.T{
+  color: white;
+  text-align: center;
+}
+.cp{
+  color: white;
+  margin: 100px 100px 0px 20px;
+}
+.logo{
+  float: right;
+}
+.slider{
+  width: 1110px;
+  height: 650px;
+  background: url(https://e.top4top.io/p_1719mptig1.jpeg);
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+@keyframes slide {
+  25%{
+    background: url(https://h.top4top.io/p_1719oxosh4.jpeg);
+  }
+  50%{
+    background: url(https://f.top4top.io/p_17193at8s2.jpeg);
+  }
+  75%{
+    background: url(https://g.top4top.io/p_17199z7nc3.jpeg);
+  }
+  100%{
+    background: url(https://e.top4top.io/p_1719mptig1.jpeg);
+  }
+
+}

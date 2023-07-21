@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description"content="First Project">
+    <title>Financial Helper</title>
+    <link rel='stylesheet'  href='CSS/transfer.css' />
+    <link rel='shortcut icon' href='https://a.top4top.io/p_1719atyg01.png' />
+</head>
+<body>
+<ul class="N">
+    <li><a href="index.html" class="H">Home</a></li>
+</ul><br>
+<img src="https://a.top4top.io/p_1719atyg01.png" class="pic" >
+<div class="container">
+    <div class="row">
+        <label>pound</label>
+        <input type="text" id="pound" placeholder="please enter your money"  >
+        <button type="button" name="button" id="button">Change</button><br>
+        <br>
+        <label>SAR</label>
+        <input type="text"   id="ryal" disabled>
+        <br>
+        <label>Dollar</label>
+        <input type="text"   id="dollar" disabled>
+        <br>
+        <label>CNY</label>
+        <input type="text"  id="yn" disabled>
+        <br>
+        <label>Euro</label>
+        <input type="text"  id="euro" disabled>
+        <br>
+        <label>AED</label>
+        <input type="text"  id="dram" disabled>
+        <br>
+
+    </div>
+</div>
+<script>
+    let pound = document.getElementById('pound') ,
+        button = document.getElementById('button') ,
+        yn = document.getElementById('yn') ,
+        dollar = document.getElementById('dollar') ,
+        ryal = document.getElementById('ryal') ,
+        euro = document.getElementById('euro');
+    dram = document.getElementById('dram');
+    button.onclick = function() {
+        yn.value = pound.value / 2.30369+" ¥";
+        dollar.value = pound.value / 15.7426+" $";
+        euro.value = pound.value / 18.5608+" €";
+        ryal.value = pound.value /4.19802+" SAR";
+        dram.value=pound.value /4.28661+" AED";
+    };
+</script>
+<H1 style="text-align: center">EGP to USD Stats</H1>
+<table>
+    <tr>
+        <th>-</th>
+        <th>Last 30 days</th>
+        <th>last 90 days</th>
+    </tr>
+    <tr>
+        <td>High</td>
+        <td>0.06346</td>
+        <td>0.06346</td>
+    </tr>
+    <tr>
+        <th>Low</th>
+        <th>0.06276</th>
+        <th>0.06177</th>
+    </tr>
+    <tr>
+        <th>Average</th>
+        <th>0.06302</th>
+        <th>0.06256</th>
+    </tr>
+    <tr>
+        <th>Volatility</th>
+        <th>0.11%</th>
+        <th>0.12%</th>
+    </tr>
+</table><br>
+<H1 style="text-align: center">EGP to EUR Stats</H1>
+
+<table>
+    <tr>
+        <th>-</th>
+        <th>Last 30 days</th>
+        <th>last 90 days</th>
+    </tr>
+    <tr>
+        <td>High</td>
+        <td>0.05380	</td>
+        <td>0.05543</td>
+    </tr>
+    <tr>
+        <th>Low</th>
+        <th>0.05252</th>
+        <th>0.05252</th>
+    </tr>
+    <tr>
+        <th>Average</th>
+        <th>0.05319</th>
+        <th>0.05399</th>
+    </tr>
+    <tr>
+        <th>Volatility</th>
+        <th>0.37%</th>
+        <th>0.39%</th>
+    </tr>
+</table>
+<br><H1 style="text-align: center">EGP to CNY Stats</H1>
+
+<table >
+    <tr>
+        <th>-</th>
+        <th>Last 30 days</th>
+        <th>last 90 days</th>
+    </tr>
+    <tr>
+        <td>High</td>
+        <td>0.43679	</td>
+        <td>0.43920</td>
+    </tr>
+    <tr>
+        <th>Low</th>
+        <th>0.43012</th>
+        <th>0.43012</th>
+    </tr>
+    <tr>
+        <th>Average</th>
+        <th>0.43381</th>
+        <th>0.43630</th>
+    </tr>
+    <tr>
+        <th>Volatility</th>
+        <th>0.18%</th>
+        <th>0.18%</th>
+    </tr>
+</table>
+<br><H1 style="text-align: center">EGP to AED Stats</H1>
+
+<table>
+    <tr>
+        <th>-</th>
+        <th>Last 30 days</th>
+        <th>last 90 days</th>
+    </tr>
+    <tr>
+        <td>High</td>
+        <td>0.23305	</td>
+        <td>0.23305</td>
+    </tr>
+    <tr>
+        <th>Low</th>
+        <th>0.23048</th>
+        <th>0.22684</th>
+    </tr>
+    <tr>
+        <th>Average</th>
+        <th>0.23144	</th>
+        <th>0.22974</th>
+    </tr>
+    <tr>
+        <th>Volatility</th>
+        <th>0.11%</th>
+        <th>0.12%</th>
+    </tr>
+</table>
+<br><H1 style="text-align: center">EGP to SAR Stats</H1>
+
+<table>
+    <tr>
+        <th>-</th>
+        <th>Last 30 days</th>
+        <th>last 90 days</th>
+    </tr>
+    <tr>
+        <td>High</td>
+        <td>0.23797	</td>
+        <td>0.23797</td>
+    </tr>
+    <tr>
+        <th>Low</th>
+        <th>0.23534</th>
+        <th>0.23163</th>
+    </tr>
+    <tr>
+        <th>Average</th>
+        <th>0.23632	</th>
+        <th>0.23459</th>
+    </tr>
+    <tr>
+        <th>Volatility</th>
+        <th>0.11%</th>
+        <th>0.12%</th>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<div class="comment">
+    <hr>
+    By Team FCIS
+    Ain Shams Univirsty
+    <hr>
+</div>
+</body>
+</html>
