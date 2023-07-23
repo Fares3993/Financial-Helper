@@ -15,3 +15,11 @@ visit: https://tycoons-financial-helper.netlify.app/
 ![About Us page 1](https://user-images.githubusercontent.com/72581790/124403848-a02ad200-dd38-11eb-824b-9ac4ec6bc9b1.png)
 ![About Us page 2](https://user-images.githubusercontent.com/72581790/124403821-7ffb1300-dd38-11eb-8545-095e21f45b5a.png)
 
+### created by a team of 5 students: 
+* Fares Ahmed Abdeltawab
+* Eman Ragab
+* Essam Eldin Sheriff
+* Ali Taher
+* Alaa Adel
+
+
